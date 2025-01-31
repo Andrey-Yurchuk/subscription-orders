@@ -38,7 +38,7 @@ cp .env.example .env
 Откройте файл .env и для получения значения ключа приложения `APP_SECRET` сгенерируйте его с помощью следующей команды:
 
 ```bash
-docker-compose exec php php artisan key:generate
+php artisan key:generate
 ```
 После генерации ключа укажите его значение в `APP_SECRET`
 
