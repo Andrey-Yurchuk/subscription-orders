@@ -80,7 +80,7 @@ docker exec -it php php artisan migrate
 ```bash
 docker exec -it php php artisan db:seed --class=TariffSeeder
 ```
-После выполнения данных команд прижение готово к работе
+После выполнения данных команд приложение готово к работе
 
 ### 7. Просмотр и создание заказов:
 
